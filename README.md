@@ -43,6 +43,14 @@ python3 -m venv venv
    ```
    pip install flask
    ```
+5) Launch the application, with the command:
+```
+flask run
+```
+6) The user interface for the application may now be opened, in your browser, with the address:
+```
+127.0.0.1:5000
+```
 
 ## Shutting down the application
 1) In your terminal, shut down the application by pressing ctrl + c.
@@ -61,8 +69,12 @@ deactivate
    ```
    venv\Scripts\activate
    ```
-3) Deactivate the virtual environment, with the command:
+2) Launch the application, with the command:
 ```
-deactivate
+flask run
+```
+3) The user interface for the application may now be opened, in your browser, with the address:
+```
+127.0.0.1:5000
 ```
 
