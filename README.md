@@ -22,23 +22,52 @@ Recipe Stash is a service for storing and creating all of your recipies in one p
 - Users can comment on recipies
 
 ## Installation instructions:
-1) Mene komentorivillä hakemistoon johon haluat asentaa sovelluksen, ja lataa se lomennolla:
+1) In your terminal, navigate to the directory in which you want to install the application and download it, with the command:
 ```
-git clone https://github.com/jrhel/Analyysilokero.git
+git clone https://github.com/jrhel/Recipe-Stash.git
 ```
-2) Asenna venv ( a) Unix / b) Windows):
- ```
-b) pip install virtualenv
+2) Set up a virtual environment for the application, with the command:
 ```
-3) Luo hakemistoon Pythonin virtuaaliympäristön koomennolla ( a) Unix / b) Windows):
+python3 -m venv venv
 ```
-a) python3 -m venv venv   /   b) python -m virtualenv + destination folder
-```
-4) Activate venv:
-```
-venv_recipe-stash\Scripts\activate
-```
-5) Asenna flask:
+3) Activate the virtual environment:
+ - a) on Unix, with the command;
+   ```
+   venv/bin/activate
+   ```
+ - b) on Windows, with the command;
+   ```
+   venv\Scripts\activate
+   ```
+4) Install flask, with the command:
    ```
    pip install flask
    ```
+5) Launch the application, with the command:
+```
+flask run
+```
+6) The user interface for the application may now be opened, in your browser, with the address specified in your terminal.
+
+## Shutting down the application
+1) In your terminal, shut down the application by pressing ctrl + c.
+2) Deactivate the virtual environment, with the command:
+```
+deactivate
+```
+
+## Restarting the application
+1) In your terminal, navigate to the directory where the virtual environment was set up and activate it:
+ - a) on Unix, with the command;
+   ```
+   venv/bin/activate
+   ```
+ - b) on Windows, with the command;
+   ```
+   venv\Scripts\activate
+   ```
+2) Launch the application, with the command:
+```
+flask run
+```
+3) The user interface for the application may now be opened, in your browser, with the address specified in your terminal.
