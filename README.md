@@ -52,7 +52,6 @@ deactivate
 ```
 
 ## Restarting the application
-## Shutting down the application
 1) In your terminal, navigate to the directory where the virtual environment was set up and activate it:
  - a) on Unix, with the command;
    ```
