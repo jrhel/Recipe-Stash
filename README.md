@@ -75,3 +75,6 @@ deactivate
 flask run
 ```
 3) The user interface for the application may now be opened, in your browser, with the address specified in your terminal.
+
+## User/testing instructions
+Using the application requires a user account. If you don't have one, one can be created by clicking the "Create account"-link below the log-in form on the front page. Once an account has been successfully created, the application automatically loads the users personal space from where the user will be able to use the application. If the suer wants to delete their account, they can do it through their terminal with SQL, or simply delete the file database.db from the directory where the application is installed. The application automatically ensures that the application has access to a database with the correct schema, and recreates any missing tables at start-up. A database does not need to be created manually for use or testing.
