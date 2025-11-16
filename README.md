@@ -47,10 +47,7 @@ python3 -m venv venv
 ```
 flask run
 ```
-6) The user interface for the application may now be opened, in your browser, with the address:
-```
-127.0.0.1:5000
-```
+6) The user interface for the application may now be opened, in your browser, with the address specified in your terminal.
 
 ## Shutting down the application
 1) In your terminal, shut down the application by pressing ctrl + c.
@@ -73,8 +70,4 @@ deactivate
 ```
 flask run
 ```
-3) The user interface for the application may now be opened, in your browser, with the address:
-```
-127.0.0.1:5000
-```
-
+3) The user interface for the application may now be opened, in your browser, with the address specified in your terminal.
