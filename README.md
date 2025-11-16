@@ -38,3 +38,7 @@ a) python3 -m venv venv   /   b) python -m virtualenv
 ```
 venv_recipe-stash\Scripts\activate
 ```
+5) Asenna flask:
+   ```
+   pip install flask
+   ```
