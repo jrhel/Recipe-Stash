@@ -32,7 +32,7 @@ b) pip install virtualenv
 ```
 3) Luo hakemistoon Pythonin virtuaaliympäristön koomennolla ( a) Unix / b) Windows):
 ```
-a) python3 -m venv venv   /   b) python -m virtualenv
+a) python3 -m venv venv   /   b) python -m virtualenv + destination folder
 ```
 4) Activate venv:
 ```
