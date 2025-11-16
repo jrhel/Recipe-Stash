@@ -20,3 +20,16 @@ Recipe Stash is a service for storing and creating all of your recipies in one p
 ## Functinality that may be implemented:
 - User can search for recipies by a set of ingredients;
 - Users can comment on recipies
+
+## Installation instructions:
+1) Mene komentorivillä hakemistoon johon haluat asentaa sovelluksen, ja lataa se lomennolla:
+```
+git clone https://github.com/jrhel/Analyysilokero.git
+```
+2) Asenna venv ( a) Unix / b) Windows):
+ ```
+b) pip install virtualenv
+```
+3) Luo hakemistoon Pythonin virtuaaliympäristön koomennolla ( a) Unix / b) Windows):
+```
+a) python3 -m venv venv   /   b) python -m virtualenv
