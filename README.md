@@ -2,6 +2,7 @@
 
 Recipe Stash is a service for storing and creating all of your recipies in one place. 
 
+# DISCLAMER: Haven't been able to sort out & push functioning fetures for the DL on 30.11 because of having the flu. I'll try to finsih the project before the final DL.
 
 ## Implemented Functinality:
 - User can create an account, log in, & log out;
